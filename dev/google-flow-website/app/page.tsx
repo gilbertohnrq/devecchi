@@ -1,5 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
+import { ArchitectureProjectsSection } from "@/components/architecture-projects-section"
+import { DesignAutoScrollSection } from "@/components/design-auto-scroll-section"
 import { OverviewSection } from "@/components/overview-section"
 import { FilmmakersSection } from "@/components/filmmakers-section"
 import { PricingSection } from "@/components/pricing-section"
@@ -11,6 +13,8 @@ export default function Page() {
     <main className="relative bg-[#121212]">
       <Navbar />
       <HeroSection />
+      <ArchitectureProjectsSection />
+      <DesignAutoScrollSection />
       <OverviewSection />
       <FilmmakersSection />
       <PricingSection />

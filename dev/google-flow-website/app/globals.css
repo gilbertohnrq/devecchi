@@ -90,3 +90,30 @@ html {
 .animate-scroll-right:hover {
   animation-play-state: paused;
 }
+
+/* Vertical auto-scroll animations for design section */
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-scroll-down {
+  animation: scroll-down 50s linear infinite;
+}
+
+.animate-scroll-up {
+  animation: scroll-up 50s linear infinite;
+}
