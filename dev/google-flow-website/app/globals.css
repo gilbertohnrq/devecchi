@@ -93,27 +93,33 @@ html {
 
 /* Vertical auto-scroll animations for design section */
 @keyframes scroll-down {
-  0% {
+  from {
     transform: translateY(0);
   }
-  100% {
+  to {
     transform: translateY(-50%);
   }
 }
 
 @keyframes scroll-up {
-  0% {
+  from {
     transform: translateY(-50%);
   }
-  100% {
+  to {
     transform: translateY(0);
   }
 }
 
 .animate-scroll-down {
-  animation: scroll-down 50s linear infinite;
+  animation: scroll-down 180s linear infinite;
 }
 
 .animate-scroll-up {
-  animation: scroll-up 50s linear infinite;
+  animation: scroll-up 180s linear infinite;
+}
+
+/* Pause animation on hover for better UX */
+.animate-scroll-down:hover,
+.animate-scroll-up:hover {
+  animation-play-state: paused;
 }
