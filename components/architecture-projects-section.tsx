@@ -20,71 +20,26 @@ interface CategoryConfig {
 }
 
 const architectureProjects: Project[] = [
-  // Residencial (3 projetos)
   {
-    id: "jg",
-    title: "JG Residence",
+    id: "f1-office",
+    title: "Home Office F1",
     category: "residencial",
-    image: "/portfolio/arch-jg.png",
-    description: "Residência moderna com conceito gamer integrado",
+    image: "/portfolio/arch-01-f1-office.jpg",
+    description: "Home office compacto de casal com temática Fórmula 1, bancada wall-to-wall e integração de TV/console",
   },
   {
-    id: "racing",
-    title: "Racing Loft",
+    id: "futurista",
+    title: "Setup Futurista",
     category: "residencial",
-    image: "/portfolio/arch-racing.png",
-    description: "Loft urbano com temática automotiva",
+    image: "/portfolio/arch-02-futurista.jpg",
+    description: "Estação gamer monocromática com MDF Ártico, prateleiras LED e ergonomia profissional",
   },
   {
-    id: "red",
-    title: "Red House",
+    id: "quarto-gamer",
+    title: "Quarto Gamer Minimalista",
     category: "residencial",
-    image: "/portfolio/arch-red.png",
-    description: "Casa contemporânea com paleta vibrante",
-  },
-  // Comercial (3 projetos)
-  {
-    id: "mesa",
-    title: "Mesa Café",
-    category: "comercial",
-    image: "/portfolio/arch-mesa.png",
-    description: "Café conceito com design minimalista",
-  },
-  {
-    id: "comercial-2",
-    title: "Espaço Corporativo",
-    category: "comercial",
-    image: "/hero-video-src/behance/bh-02.jpg",
-    description: "Escritório moderno e funcional",
-  },
-  {
-    id: "comercial-3",
-    title: "Showroom Premium",
-    category: "comercial",
-    image: "/hero-video-src/behance/bh-03.jpg",
-    description: "Ambiente comercial de alto padrão",
-  },
-  // Espaços (3 projetos)
-  {
-    id: "praca",
-    title: "Praça Urbana",
-    category: "espacos",
-    image: "/portfolio/arch-praca.jpg",
-    description: "Revitalização de espaço público",
-  },
-  {
-    id: "espacos-2",
-    title: "Área de Lazer",
-    category: "espacos",
-    image: "/hero-video-src/behance/bh-01.jpg",
-    description: "Espaço integrado para comunidade",
-  },
-  {
-    id: "espacos-3",
-    title: "Parque Urbano",
-    category: "espacos",
-    image: "/hero-video-src/behance/bh-04.jpg",
-    description: "Paisagismo e urbanismo sustentável",
+    image: "/portfolio/arch-03-quarto-gamer.jpg",
+    description: "Quarto gamer sofisticado com rack suspenso, iluminação indireta e estética limpa",
   },
 ]
 
@@ -93,16 +48,6 @@ const architectureCategories: CategoryConfig[] = [
     id: "residencial",
     label: "Residencial",
     description: "Espaços projetados para transformar casas em lares, onde cada detalhe conta uma história.",
-  },
-  {
-    id: "comercial",
-    label: "Comercial",
-    description: "Ambientes que elevam marcas e criam experiências memoráveis para clientes.",
-  },
-  {
-    id: "espacos",
-    label: "Espaços",
-    description: "Projetos urbanos que conectam pessoas e revitalizam comunidades.",
   },
 ]
 
